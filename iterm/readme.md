@@ -1,0 +1,1 @@
+Go to Preference -> General -> Preferences and point it to this folder
