@@ -21,7 +21,7 @@ function sourceIf() {
 export IS_PERSONAL_DEVICE="true"
 
 sourceIf $HOME/.zsh-private
-sourceIf $HOME/.automox.zshrc
+sourceIf $HOME/.work.zshrc
 
 unsetopt share_history
 
