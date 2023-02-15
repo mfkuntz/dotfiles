@@ -33,7 +33,6 @@ brew "gawk"
 # Casks
 
 cask "visual-studio-code"
-cask "1password"
 cask "rectangle"
 cask "firefox"
 cask "bartender"
@@ -52,16 +51,3 @@ cask "docker"
 mas "Fantastical", id: 975937182
 mas "Clocker", id: 1056643111
 mas "Xnip", id: 1221250572
-
-# work
-
-brew "awscli"
-mas "Slack", id: 803453959
-cask "zoom"
-
-brew "k9s"
-cask "openlens"
-brew "blackbox"
-brew "pre-commit"
-brew "terraform-docs"
-brew "oath-toolkit"
