@@ -13,3 +13,5 @@ tap "kreuzwerker/taps"
 brew "m1-terraform-provider-helper"
 
 brew "docker-credential-helper-ecr"
+
+cask "1password/tap/1password-cli"
