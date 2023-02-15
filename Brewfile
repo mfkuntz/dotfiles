@@ -45,6 +45,7 @@ cask "font-fira-code-nerd-font"
 cask "spotify"
 cask "raindropio"
 cask "docker"
+cask "google-chrome"
 
 # Mac App
 
