@@ -66,8 +66,16 @@ plugins=(git asdf kubectl aws)
 
 source $ZSH/oh-my-zsh.sh
 
-source $HOME/.zsh-private
-source $HOME/.automox.zshrc
+function sourceIf() {
+  if [ -f "$1" ]; then
+    source "$1"
+  fi
+}
+
+export IS_PERSONAL_DEVICE="true"
+
+sourceIf $HOME/.zsh-private
+sourceIf $HOME/.automox.zshrc
 
 unsetopt share_history
 

@@ -1,0 +1,3 @@
+cask "google-chrome"
+cask "discord"
+cask "bitwarden"
