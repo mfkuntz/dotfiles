@@ -23,6 +23,8 @@ brew "jq"
 brew "yq"
 brew "shellcheck"
 brew "just"
+tap "mike-engel/jwt-cli"
+brew "jwt-cli"
 
 # ASDF 
 brew "asdf"
@@ -46,6 +48,8 @@ cask "spotify"
 cask "raindropio"
 cask "docker"
 cask "google-chrome"
+
+cask "raycast"
 
 # Mac App
 
