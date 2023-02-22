@@ -29,6 +29,8 @@ unsetopt share_history
 export XDG_CONFIG_HOME="$HOME/.config"
 
 export PATH="$PATH:/Users/mkuntz/go/bin"
+# move go priority. may break with homebrew chagnes to 1.20
+export PATH="/usr/local/go/bin:$PATH"
 
 function rzsh() {
   source $HOME/.zshrc

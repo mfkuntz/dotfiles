@@ -2,7 +2,7 @@ brew "awscli"
 mas "Slack", id: 803453959
 cask "zoom"
 
-brew "k9s"
+# brew "k9s", args: ["build-from-source", "force"]
 cask "openlens"
 brew "blackbox"
 brew "sops"
@@ -16,3 +16,6 @@ brew "m1-terraform-provider-helper"
 brew "docker-credential-helper-ecr"
 
 cask "1password/tap/1password-cli"
+
+tap "int128/kubelogin"
+brew "kubelogin"
