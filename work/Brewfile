@@ -19,3 +19,6 @@ cask "1password/tap/1password-cli"
 
 tap "int128/kubelogin"
 brew "kubelogin"
+
+brew "pgbadger"
+brew "jfrog-cli"
