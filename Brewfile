@@ -31,6 +31,14 @@ brew "asdf"
 # nodejs deps
 brew "gpg"
 brew "gawk"
+# erlang
+brew "autoconf"
+brew "openssl@1.1"
+brew "libxslt"
+brew "fop"
+
+brew "doctl"
+brew "k9s", args: ["build-from-source"]
 
 # Casks
 
@@ -48,8 +56,9 @@ cask "spotify"
 cask "raindropio"
 cask "docker"
 cask "google-chrome"
-
 cask "raycast"
+
+cask "zoom"
 
 # Mac App
 
