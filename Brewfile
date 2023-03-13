@@ -26,6 +26,8 @@ brew "just"
 tap "mike-engel/jwt-cli"
 brew "jwt-cli"
 
+brew "ykman"
+
 # ASDF 
 brew "asdf"
 # nodejs deps
