@@ -1,5 +1,6 @@
 brew "awscli"
-mas "Slack", id: 803453959
+# Slack is weird and likes to remove itself
+# mas "Slack", id: 803453959
 
 # brew "k9s", args: ["build-from-source", "force"]
 cask "openlens"
@@ -21,3 +22,5 @@ brew "kubelogin"
 
 brew "pgbadger"
 brew "jfrog-cli"
+
+cask "session-manager-plugin"
