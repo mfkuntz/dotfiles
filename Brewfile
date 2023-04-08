@@ -41,6 +41,8 @@ brew "fop"
 
 brew "doctl"
 brew "k9s", args: ["build-from-source"]
+# CLI 
+brew "redis"
 
 # Casks
 
@@ -61,6 +63,7 @@ cask "google-chrome"
 cask "raycast"
 
 cask "zoom"
+cask "jetbrains-toolbox"
 
 # Mac App
 
