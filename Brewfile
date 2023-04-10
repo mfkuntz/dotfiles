@@ -55,6 +55,7 @@ cask "istat-menus"
 cask "font-fira-code-nerd-font"
 
 cask "spotify"
+cask "tidal"
 cask "raindropio"
 cask "docker"
 cask "google-chrome"
