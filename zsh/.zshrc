@@ -19,9 +19,17 @@ function sourceIf() {
 }
 
 export IS_PERSONAL_DEVICE="true"
+if [ -f "$HOME/.work.zshrc" ]; then
+  IS_PERSONAL_DEVICE="false"
+fi
 
 sourceIf $HOME/.zsh-private
-sourceIf $HOME/.work.zshrc
+if [ "$IS_PERSONAL_DEVICE" = "true" ]; then
+  sourceIf $HOME/.personal.zshrc
+else
+  sourceIf $HOME/.work.zshrc
+fi
+
 
 unsetopt share_history
 

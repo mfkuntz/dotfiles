@@ -52,7 +52,6 @@ cask "firefox"
 cask "bartender"
 cask "iterm2"
 cask "obsidian"
-cask "istat-menus"
 
 cask "font-fira-code-nerd-font"
 
