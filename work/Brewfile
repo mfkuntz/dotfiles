@@ -9,6 +9,8 @@ brew "sops"
 brew "pre-commit"
 brew "terraform-docs"
 brew "oath-toolkit"
+brew "packer"
+# brew "orka"
 
 tap "kreuzwerker/taps"
 brew "m1-terraform-provider-helper"

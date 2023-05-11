@@ -43,7 +43,7 @@ brew "doctl"
 brew "k9s", args: ["build-from-source"]
 # CLI 
 brew "redis"
-
+brew "tree"
 # Casks
 
 cask "visual-studio-code"
@@ -65,6 +65,7 @@ cask "raycast"
 
 cask "zoom"
 cask "jetbrains-toolbox"
+cask "insomnia"
 
 # Mac App
 
