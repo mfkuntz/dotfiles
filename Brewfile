@@ -44,6 +44,7 @@ brew "k9s", args: ["build-from-source"]
 # CLI 
 brew "redis"
 brew "tree"
+brew "dasel"
 # Casks
 
 cask "visual-studio-code"
