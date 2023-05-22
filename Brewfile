@@ -39,7 +39,6 @@ brew "openssl@1.1"
 brew "libxslt"
 brew "fop"
 
-brew "doctl"
 brew "k9s", args: ["build-from-source"]
 # CLI 
 brew "redis"
