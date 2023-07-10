@@ -65,6 +65,7 @@ cask "raycast"
 cask "zoom"
 cask "jetbrains-toolbox"
 cask "insomnia"
+cask "kap"
 
 # Mac App
 
