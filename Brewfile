@@ -44,6 +44,9 @@ brew "k9s", args: ["build-from-source"]
 brew "redis"
 brew "tree"
 brew "dasel"
+brew "libpq"
+#  brew link --force libpq
+brew "hurl"
 # Casks
 
 cask "visual-studio-code"

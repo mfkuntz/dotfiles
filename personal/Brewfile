@@ -8,6 +8,7 @@ cask "stats"
 
 brew "doctl"
 brew "scrcpy"
+brew "flyctl"
 
 tap "homebrew/cask-versions"
 cask "temurin8"
