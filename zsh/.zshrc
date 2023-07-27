@@ -63,6 +63,8 @@ function flushDns() {
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+eval $(thefuck --alias)
+
 if hash atuin 2>/dev/null; then
   eval "$(atuin init zsh)"
   alias fha="atuin search -i"
