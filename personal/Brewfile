@@ -7,8 +7,13 @@ cask "vlc"
 cask "stats"
 
 brew "doctl"
+brew "scrcpy"
+brew "flyctl"
 
 tap "homebrew/cask-versions"
 cask "temurin8"
 cask "temurin11"
+
+
+mas "Todoist", id: 585829637
 # cask? openjdk@17

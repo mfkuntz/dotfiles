@@ -45,6 +45,9 @@ brew "redis"
 brew "tree"
 brew "dasel"
 brew "thefuck"
+brew "libpq"
+#  brew link --force libpq
+brew "hurl"
 # Casks
 
 cask "visual-studio-code"
@@ -66,6 +69,7 @@ cask "raycast"
 cask "zoom"
 cask "jetbrains-toolbox"
 cask "insomnia"
+cask "kap"
 
 # Mac App
 
