@@ -48,6 +48,8 @@ brew "thefuck"
 brew "libpq"
 #  brew link --force libpq
 brew "hurl"
+brew "fx"
+brew "lsd"
 # Casks
 
 cask "visual-studio-code"

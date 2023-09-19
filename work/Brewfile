@@ -25,6 +25,8 @@ brew "kubelogin"
 brew "pgbadger"
 brew "jfrog-cli"
 brew "steampipe"
+brew "vale"
+
 
 cask "session-manager-plugin"
 cask "istat-menus"
