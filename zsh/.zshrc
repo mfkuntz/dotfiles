@@ -36,9 +36,13 @@ unsetopt share_history
 # k9s 
 export XDG_CONFIG_HOME="$HOME/.config"
 
-export PATH="$PATH:/Users/mkuntz/go/bin"
+export GOPATH="$HOME/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$PATH:$GOBIN"
+
+# export PATH="$PATH:/Users/mkuntz/go/bin"
 # move go priority. may break with homebrew chagnes to 1.20
-export PATH="/usr/local/go/bin:$PATH"
+# export PATH="/usr/local/go/bin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 
 function rzsh() {
@@ -69,3 +73,6 @@ if hash atuin 2>/dev/null; then
   eval "$(atuin init zsh)"
   alias fha="atuin search -i"
 fi
+
+# Created by `pipx` on 2023-11-29 21:22:05
+export PATH="$PATH:/Users/mfkuntz/.local/bin"

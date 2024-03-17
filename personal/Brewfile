@@ -14,6 +14,10 @@ tap "homebrew/cask-versions"
 cask "temurin8"
 cask "temurin11"
 
+tap "depot/tap"
+brew "depot"
+
+cask "google-cloud-sdk"
 
 mas "Todoist", id: 585829637
 # cask? openjdk@17
