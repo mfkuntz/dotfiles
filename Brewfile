@@ -50,6 +50,7 @@ brew "libpq"
 brew "hurl"
 brew "fx"
 brew "lsd"
+brew "krew"
 # Casks
 
 cask "visual-studio-code"
