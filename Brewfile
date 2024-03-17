@@ -51,6 +51,7 @@ brew "hurl"
 brew "fx"
 brew "lsd"
 brew "krew"
+brew "atuin"
 # Casks
 
 cask "visual-studio-code"
