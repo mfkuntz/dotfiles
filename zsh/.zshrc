@@ -44,6 +44,7 @@ export PATH="$PATH:$GOBIN"
 # move go priority. may break with homebrew chagnes to 1.20
 # export PATH="/usr/local/go/bin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+export PATH="$PATH:/Users/mkuntz/.local/bin"
 
 function rzsh() {
   source $HOME/.zshrc
@@ -53,6 +54,10 @@ function clip() {
 }
 function goroot() {
   cd $(git rev-parse --show-toplevel)
+}
+function gitSquash() {
+  git fetch
+  git reset --soft origin/master
 }
 
 # fh - repeat history

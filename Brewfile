@@ -46,6 +46,7 @@ brew "tree"
 brew "dasel"
 brew "thefuck"
 brew "libpq"
+brew "postgresql@13"
 #  brew link --force libpq
 brew "hurl"
 brew "fx"
