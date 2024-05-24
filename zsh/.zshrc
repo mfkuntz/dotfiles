@@ -76,3 +76,11 @@ fi
 
 # Created by `pipx` on 2023-11-29 21:22:05
 export PATH="$PATH:/Users/mfkuntz/.local/bin"
+
+# pnpm
+export PNPM_HOME="/Users/mfkuntz/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end

@@ -52,6 +52,8 @@ brew "fx"
 brew "lsd"
 brew "krew"
 brew "atuin"
+brew "sops"
+brew "packer"
 # Casks
 
 cask "visual-studio-code"

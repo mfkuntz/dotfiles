@@ -5,11 +5,9 @@ brew "awscli"
 # brew "k9s", args: ["build-from-source", "force"]
 cask "openlens"
 brew "blackbox"
-brew "sops"
 brew "pre-commit"
 brew "terraform-docs"
 brew "oath-toolkit"
-brew "packer"
 # brew "orka"
 
 tap "kreuzwerker/taps"
