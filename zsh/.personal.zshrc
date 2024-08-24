@@ -10,3 +10,25 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export CLOUDSDK_PYTHON_SITEPACKAGES=1
 sourceIf "/opt/homebrew/share/google-cloud-sdk/path.zsh.inc"
 sourceIf "/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc"
+
+# todo split out Work stuff! 
+function sopsCopde() {
+    EDITOR="code --wait" sops "$@"
+}
+
+function getTF() {
+    if [ -f "terragrunt.hcl" ]; then
+        export TF_EXE="terragrunt"
+    else
+        export TF_EXE="terraform"
+    fi
+}
+
+function tplan() {
+    getTF
+    $TF_EXE plan "$@" -lock=false
+}
+function tapply() {
+    getTF
+    $TF_EXE apply "$@"
+}
