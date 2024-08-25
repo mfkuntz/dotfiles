@@ -30,6 +30,7 @@ else
   sourceIf $HOME/.work.zshrc
 fi
 
+sourceIf $HOME/.kube.zshrc
 
 unsetopt share_history
 

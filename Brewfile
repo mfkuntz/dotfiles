@@ -55,14 +55,15 @@ brew "krew"
 brew "atuin"
 brew "sops"
 brew "packer"
+
 # Casks
 
 cask "visual-studio-code"
 cask "rectangle"
 cask "firefox"
-cask "bartender"
 cask "iterm2"
 cask "obsidian"
+# cask "vanilla"
 
 cask "font-fira-code-nerd-font"
 
@@ -83,3 +84,4 @@ cask "kap"
 mas "Fantastical", id: 975937182
 mas "Clocker", id: 1056643111
 mas "Xnip", id: 1221250572
+mas "Velja", id: 1607635845
