@@ -24,12 +24,8 @@ if [ -f "$HOME/.work.zshrc" ]; then
 fi
 
 sourceIf $HOME/.zsh-private
-if [ "$IS_PERSONAL_DEVICE" = "true" ]; then
-  sourceIf $HOME/.personal.zshrc
-else
-  sourceIf $HOME/.work.zshrc
-fi
-
+sourceIf $HOME/.personal.zshrc
+sourceIf $HOME/.work.zshrc
 sourceIf $HOME/.kube.zshrc
 
 unsetopt share_history
