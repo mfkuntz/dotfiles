@@ -1,7 +1,5 @@
 # Taps
 
-tap "homebrew/cask-fonts"
-
 # Brews
 
 ## install MacOS appstore CLI
@@ -54,7 +52,6 @@ brew "lsd"
 brew "krew"
 brew "atuin"
 brew "sops"
-brew "packer"
 
 # Casks
 

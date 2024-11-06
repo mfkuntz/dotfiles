@@ -37,6 +37,8 @@ export GOPATH="$HOME/go"
 export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOBIN"
 
+export TERRAGRUNT_PROVIDER_CACHE=1
+
 # export PATH="$PATH:/Users/mkuntz/go/bin"
 # move go priority. may break with homebrew chagnes to 1.20
 # export PATH="/usr/local/go/bin:$PATH"
