@@ -55,8 +55,9 @@ function goroot() {
   cd $(git rev-parse --show-toplevel)
 }
 function gitSquash() {
-  git fetch
-  git reset --soft origin/master
+  local defaultBranch=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  echo "Squashing to $defaultBranch"
+  git reset --soft "origin/${defaultBranch}"
 }
 
 # fh - repeat history
