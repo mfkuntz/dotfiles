@@ -38,6 +38,8 @@ export GOBIN="$GOPATH/bin"
 export PATH="$PATH:$GOBIN"
 
 export TERRAGRUNT_PROVIDER_CACHE=1
+# keep history in iex
+export ERL_AFLAGS="-kernel shell_history enabled"
 
 # export PATH="$PATH:/Users/mkuntz/go/bin"
 # move go priority. may break with homebrew chagnes to 1.20
@@ -56,6 +58,7 @@ function goroot() {
 }
 function gitSquash() {
   local defaultBranch=$(git symbolic-ref refs/remotes/origin/HEAD | sed 's@^refs/remotes/origin/@@')
+  defaultBranch=${defaultBranch:-main}
   echo "Squashing to $defaultBranch"
   git reset --soft "origin/${defaultBranch}"
 }
