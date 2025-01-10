@@ -33,7 +33,7 @@ brew "gpg"
 brew "gawk"
 # erlang
 brew "autoconf"
-brew "openssl@1.1"
+# brew "openssl@1.1"
 brew "libxslt"
 brew "fop"
 
@@ -52,6 +52,7 @@ brew "lsd"
 brew "krew"
 brew "atuin"
 brew "sops"
+brew "totp-cli"
 
 # Casks
 
@@ -67,13 +68,13 @@ cask "font-fira-code-nerd-font"
 cask "spotify"
 cask "tidal"
 cask "raindropio"
-cask "docker"
+# cask "docker"
 cask "google-chrome"
 cask "raycast"
 
 cask "zoom"
 cask "jetbrains-toolbox"
-cask "insomnia"
+# cask "insomnia"
 cask "kap"
 
 # Mac App

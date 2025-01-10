@@ -6,18 +6,20 @@ cask "vlc"
 
 cask "stats"
 
-brew "doctl"
+cask "orbstack"
+
+# brew "doctl"
 brew "scrcpy"
 brew "flyctl"
 
-tap "homebrew/cask-versions"
-cask "temurin8"
-cask "temurin11"
+# tap "homebrew/cask-versions"
+# cask "temurin8"
+# cask "temurin11"
 
-tap "depot/tap"
-brew "depot"
+# tap "depot/tap"
+# brew "depot"
 
-cask "google-cloud-sdk"
+# cask "google-cloud-sdk"
 
 mas "Todoist", id: 585829637
 # cask? openjdk@17

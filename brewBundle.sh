@@ -6,12 +6,9 @@ export HOMEBREW_AUTO_UPDATE_SECS="86400"
 echo "==> running shared bundle"
 brew bundle --file Brewfile
 
-if [ "$IS_PERSONAL_DEVICE" = "true" ]; then
-    echo "==> running personal bundle"
-    brew bundle --file ./personal/Brewfile
-else
-    echo "==> running work bundle"
-    brew bundle --file ./work/Brewfile
-fi
+echo "==> running personal bundle"
+brew bundle --file ./personal/Brewfile
+echo "==> running work bundle"
+brew bundle --file ./work/Brewfile
 
 unset HOMEBREW_AUTO_UPDATE_SECS

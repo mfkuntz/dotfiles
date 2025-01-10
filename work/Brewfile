@@ -1,30 +1,24 @@
 brew "awscli"
-# Slack is weird and likes to remove itself
-# mas "Slack", id: 803453959
+mas "Slack", id: 803453959
 
 # brew "k9s", args: ["build-from-source", "force"]
-cask "openlens"
-brew "blackbox"
+# cask "openlens"
+# brew "blackbox"
 brew "pre-commit"
 brew "terraform-docs"
-brew "oath-toolkit"
+# brew "oath-toolkit"
 # brew "orka"
 
-tap "kreuzwerker/taps"
-brew "m1-terraform-provider-helper"
+# tap "kreuzwerker/taps"
+# brew "m1-terraform-provider-helper"
 
-brew "docker-credential-helper-ecr"
+# brew "docker-credential-helper-ecr"
 
-cask "1password/tap/1password-cli"
+# cask "1password/tap/1password-cli"
 
-tap "int128/kubelogin"
-brew "kubelogin"
-
-brew "pgbadger"
-brew "jfrog-cli"
+# brew "pgbadger"
 brew "steampipe"
-brew "vale"
-
+# brew "vale"
 
 cask "session-manager-plugin"
-cask "istat-menus"
+# cask "istat-menus"
