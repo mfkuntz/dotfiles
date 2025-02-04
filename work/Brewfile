@@ -18,7 +18,10 @@ brew "terraform-docs"
 
 # brew "pgbadger"
 brew "steampipe"
+brew "turbot/tap/powerpipe"
 # brew "vale"
+brew "duckdb"
 
 cask "session-manager-plugin"
-# cask "istat-menus"
+
+# brew "bitwarden-cli"

@@ -10,6 +10,9 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export CLOUDSDK_PYTHON_SITEPACKAGES=1
 sourceIf "/opt/homebrew/share/google-cloud-sdk/path.zsh.inc"
 sourceIf "/opt/homebrew/share/google-cloud-sdk/completion.zsh.inc"
+pathIf "$HOME/.dotnet/tools"
+
+sourceIf "$HOME/.asdf/plugins/dotnet/set-dotnet-env.zsh"
 
 # todo split out Work stuff! 
 function sopsCopde() {

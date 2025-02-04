@@ -17,6 +17,11 @@ function sourceIf() {
     source "$1"
   fi
 }
+function pathIf() {
+  if [ -d "$1" ]; then
+    export PATH="$PATH:$1"
+  fi
+}
 
 export IS_PERSONAL_DEVICE="true"
 if [ -f "$HOME/.work.zshrc" ]; then
@@ -45,7 +50,7 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 # move go priority. may break with homebrew chagnes to 1.20
 # export PATH="/usr/local/go/bin:$PATH"
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
-export PATH="$PATH:/Users/mkuntz/.local/bin"
+export PATH="$PATH:${HOME}/.local/bin"
 
 function rzsh() {
   source $HOME/.zshrc
@@ -82,8 +87,7 @@ if hash atuin 2>/dev/null; then
   alias fha="atuin search -i"
 fi
 
-# Created by `pipx` on 2023-11-29 21:22:05
-export PATH="$PATH:/Users/mfkuntz/.local/bin"
+pathIf "/opt/homebrew/opt/libpq/bin"
 
 # pnpm
 export PNPM_HOME="/Users/mfkuntz/Library/pnpm"
