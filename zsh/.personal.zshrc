@@ -35,3 +35,14 @@ function tapply() {
     getTF
     $TF_EXE apply "$@"
 }
+
+function cfTunnel() {
+    if [ "$1" = "start" ]; then
+        sudo launchctl load -w /Library/LaunchDaemons/com.cloudflare.cloudflared.plist
+    elif [ "$1" = "stop" ]; then
+        sudo launchctl unload  /Library/LaunchDaemons/com.cloudflare.cloudflared.plist
+    else
+        echo "Usage: cfTunnel start|stop"
+        return 1
+    fi
+}

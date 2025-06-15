@@ -59,6 +59,7 @@ brew "totp-cli"
 cask "visual-studio-code"
 cask "rectangle"
 cask "firefox"
+cask "librewolf", args: { no_quarantine: true }
 cask "iterm2"
 cask "obsidian"
 # cask "vanilla"
