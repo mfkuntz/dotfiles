@@ -15,6 +15,9 @@ brew "terraform-docs"
 # brew "docker-credential-helper-ecr"
 
 # cask "1password/tap/1password-cli"
+# brew "k9s", args: ["build-from-source"]
+# brew "sops"
+# brew "krew"
 
 # brew "pgbadger"
 brew "steampipe"
@@ -25,5 +28,9 @@ brew "duckdb"
 cask "session-manager-plugin"
 
 brew "cloudflared"
+tap "stripe/stripe-cli"
+brew "stripe/stripe-cli/stripe"
 
-# brew "bitwarden-cli"
+brew "gnupg"
+tap "dopplerhq/cli"
+brew "dopplerhq/cli/doppler"

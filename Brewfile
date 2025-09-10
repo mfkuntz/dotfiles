@@ -37,7 +37,7 @@ brew "autoconf"
 brew "libxslt"
 brew "fop"
 
-brew "k9s", args: ["build-from-source"]
+
 # CLI 
 brew "redis"
 brew "tree"
@@ -49,9 +49,9 @@ brew "postgresql@13"
 brew "hurl"
 brew "fx"
 brew "lsd"
-brew "krew"
+
 brew "atuin"
-brew "sops"
+brew "zoxide"
 brew "totp-cli"
 
 # Casks
@@ -59,7 +59,7 @@ brew "totp-cli"
 cask "visual-studio-code"
 cask "rectangle"
 cask "firefox"
-cask "librewolf", args: { no_quarantine: true }
+# cask "librewolf", args: { no_quarantine: true }
 cask "iterm2"
 cask "obsidian"
 # cask "vanilla"
@@ -76,11 +76,11 @@ cask "raycast"
 cask "zoom"
 cask "jetbrains-toolbox"
 # cask "insomnia"
-cask "kap"
+# cask "kap"
 
 # Mac App
 
 mas "Fantastical", id: 975937182
 mas "Clocker", id: 1056643111
-mas "Xnip", id: 1221250572
+# mas "Xnip", id: 1221250572
 mas "Velja", id: 1607635845
