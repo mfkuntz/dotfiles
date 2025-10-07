@@ -77,8 +77,12 @@ function flushDns() {
   sudo killall -HUP mDNSResponder && echo macOS DNS Cache Reset
 }
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# ~/.zshrc — disable Powerlevel10k when Cursor Agent runs
+if [[ -n "$CURSOR_AGENT" ]]; then
+  # Skip theme initialization for better compatibility
+else
+  [[ -r ~/.p10k.zsh ]] && source ~/.p10k.zsh
+fi
 
 eval $(thefuck --alias)
 

@@ -5,4 +5,7 @@ defaults write com.apple.dock autohide-time-modifier -float 0.4
 defaults write com.apple.dock size-immutable -bool yes
 # defaults write com.apple.dock size-immutable -bool no
 
+# Disable "natural" scrolling
+defaults write -g com.apple.swipescrolldirection -bool false
+
 killall Dock

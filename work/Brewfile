@@ -34,3 +34,5 @@ brew "stripe/stripe-cli/stripe"
 brew "gnupg"
 tap "dopplerhq/cli"
 brew "dopplerhq/cli/doppler"
+
+brew "gh"
