@@ -53,6 +53,7 @@ brew "lsd"
 brew "atuin"
 brew "zoxide"
 brew "totp-cli"
+brew "pipx"
 
 # Casks
 
@@ -77,6 +78,7 @@ cask "zoom"
 cask "jetbrains-toolbox"
 # cask "insomnia"
 # cask "kap"
+cask "zed"
 
 # Mac App
 
