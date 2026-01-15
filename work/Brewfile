@@ -36,3 +36,5 @@ tap "dopplerhq/cli"
 brew "dopplerhq/cli/doppler"
 
 brew "gh"
+tap "oven-sh/bun"
+brew "oven-sh/bun/bun"
