@@ -103,3 +103,7 @@ esac
 
 # alias z="zoxide"
 eval "$(zoxide init zsh)"
+
+if hash just 2>/dev/null; then
+  source <(JUST_COMPLETE=zsh just)
+fi
