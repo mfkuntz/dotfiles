@@ -21,15 +21,14 @@ brew "terraform-docs"
 
 # brew "pgbadger"
 brew "steampipe"
-brew "turbot/tap/powerpipe"
+# brew "turbot/tap/powerpipe"
 # brew "vale"
 brew "duckdb"
 
 cask "session-manager-plugin"
 
 brew "cloudflared"
-tap "stripe/stripe-cli"
-brew "stripe/stripe-cli/stripe"
+brew "stripe"
 
 brew "gnupg"
 tap "dopplerhq/cli"
