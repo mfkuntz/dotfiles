@@ -80,6 +80,8 @@ cask "jetbrains-toolbox"
 # cask "kap"
 cask "zed"
 
+cask "bettermouse"
+
 # Mac App
 
 mas "Fantastical", id: 975937182
