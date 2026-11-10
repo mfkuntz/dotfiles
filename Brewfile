@@ -44,7 +44,7 @@ brew "tree"
 brew "dasel"
 brew "thefuck"
 brew "libpq"
-brew "postgresql@13"
+brew "postgresql@17"
 #  brew link --force libpq
 brew "hurl"
 brew "fx"
@@ -68,7 +68,7 @@ cask "obsidian"
 cask "font-fira-code-nerd-font"
 
 cask "spotify"
-cask "tidal"
+
 cask "raindropio"
 # cask "docker"
 cask "google-chrome"

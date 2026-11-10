@@ -14,6 +14,8 @@ pathIf "$HOME/.dotnet/tools"
 
 sourceIf "$HOME/.asdf/plugins/dotnet/set-dotnet-env.zsh"
 
+sourceIf "${ASDF_DATA_DIR:-$HOME/.asdf}/plugins/golang/set-env.zsh"
+
 # todo split out Work stuff! 
 function sopsCopde() {
     EDITOR="code --wait" sops "$@"
@@ -34,6 +36,20 @@ function tplan() {
 function tapply() {
     getTF
     $TF_EXE apply "$@"
+}
+function gcloud-login() {
+    gcloud auth application-default login
+}
+function git-main() {
+    local BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+    if [[ "$BRANCH" == "main" ]]; then
+        git fetch
+        git pull
+    else
+        git fetch origin main:main
+        git checkout main
+    fi
+    git remote prune origin
 }
 
 function cfTunnel() {
